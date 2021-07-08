@@ -1,8 +1,8 @@
 import requests
 
-url =  "https://discord.com/api/v9/channels/839474281201008650/messages"
+url =  "https://discord.com/api/v9/channels/<you channel id here>"
 
-header = {"authorization" : "mfa.GXVR1Y8tnT6n3KV0iCv2zmowMf40qe2kk18kkyqL60mfiJrmCcbCfN3JoBeqWIB0gXDUiidWsANgXnoQBshN"}
+header = {"authorization" : "your secret key here"}
 
 payload = {"content" : "pls daily"}
 
